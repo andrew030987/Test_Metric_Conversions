@@ -12,8 +12,12 @@ Here is the instruction on how to launch the script:
 3. Installing Python libraries:
 
 You may create a separate virtual environment for this step but it is not a requirement.
+
 Open cmd terminal:
+
 Type: "pip install selenium" and press enter. This will install selenium library.
+
 Type: "pip install pytest" and press enter. This will install pytest library.
+
 To start execution of tests type "pytest -v -rA test_task_3.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers on your computer before executing the test suite.
 
