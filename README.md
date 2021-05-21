@@ -9,15 +9,13 @@ Here is the instruction on how to launch the script:
 
 2. Download ChromeDriver: https://sites.google.com/a/chromium.org/chromedriver/downloads. Make sure you download the correct version for your browser. Create a new directory      called "chromedriver" on disk C: and unpack downloaded chromedriver.exe file to this directory (C:\chromedriver). Add C:\chromedriver dir to your PATH system variable. You may check how to do it for different Windows versions here: https://www.computerhope.com/issues/ch000549.htm.
 
-3. Installing Python libraries:
+3. Installing Python libraries (You may create a separate virtual environment for this step.):
 
-You may create a separate virtual environment for this step but it is not a requirement.
+   Open cmd terminal:
 
-Open cmd terminal:
+   Type: "pip install selenium" and press enter. This will install selenium library.
 
-Type: "pip install selenium" and press enter. This will install selenium library.
+   Type: "pip install pytest" and press enter. This will install pytest library.
 
-Type: "pip install pytest" and press enter. This will install pytest library.
-
-To start execution of tests type "pytest -v -rA test_task_3.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers on your computer before executing the test suite.
+4. To start execution of tests type "pytest -v -rA test_task_3.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers  on your computer before executing the test suite.
 
