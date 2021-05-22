@@ -17,5 +17,5 @@ Here is the instruction on how to launch the script:
 
    Type: "pip install pytest" and press enter. This will install pytest library.
 
-4. To start execution of tests type "pytest -v -rA test_task_3.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers  on your computer before executing the test suite.
+4. To start execution of tests type "pytest -v test_task_3.py" from project directory and press enter in terminal. It is recommended to close all other programs and browsers  on your computer before executing the test suite.
 
